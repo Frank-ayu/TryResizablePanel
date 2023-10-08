@@ -84,7 +84,7 @@ p {
 }
 
 .ResizeHandleOuter {
-  flex: 0 0 1.5em;
+  flex: 0 0 0.8em;
   position: relative;
   outline: none;
   --background-color: transparent;
@@ -98,8 +98,8 @@ p {
   position: absolute;
   top: 0.25em;
   bottom: 0.25em;
-  left: 0.25em;
-  right: 0.25em;
+  left: 0.3em;
+  right: 0.3em;
   border-radius: 0.25em;
   background-color: var(--background-color);
   transition: background-color 0.2s linear;
@@ -125,9 +125,9 @@ p {
 }
 
 .Icon {
-  width: 1em;
-  height: 1em;
+  width: 0.7em;
+  height: 0.7em;
   position: absolute;
-  left: calc(50% - 0.5rem);
-  top: calc(50% - 0.5rem);
+  left: calc(50% - 0.35rem);
+  top: calc(50% - 0.35rem);
 }
